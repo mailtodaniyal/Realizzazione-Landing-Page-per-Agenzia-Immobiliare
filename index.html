@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valutazione Immobiliare | Agenzia Prestige</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo">Prestige<span>Home</span></a>
+        <nav class="nav-links">
+            <a href="#valuation">Valutazione</a>
+            <a href="#about">Chi Siamo</a>
+            <a href="#services">Servizi</a>
+            <a href="#process">Processo</a>
+            <a href="#contact">Contatti</a>
+        </nav>
+        <button class="cta-button">Valutazione Gratuita</button>
+        <button class="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>La tua casa racconta la tua storia, siamo qui per ascoltarla</h1>
+            <p>Affidati a chi conosce il valore della tua casa, non solo il suo prezzo</p>
+            <button class="cta-button open-modal" data-modal="modal-in-person">Richiedi una Valutazione</button>
+        </div>
+    </section>
+
+    <!-- Valuation Options -->
+    <section class="valuation" id="valuation">
+        <div class="section-title">
+            <h2>Come vuoi valutare la tua casa?</h2>
+            <p>Scegli il metodo più comodo per te per ottenere una valutazione accurata e senza impegno</p>
+        </div>
+        <div class="valuation-cards">
+            <div class="valuation-card">
+                <i class="fas fa-home"></i>
+                <h3>Valutazione in Presenza</h3>
+                <p>Un nostro esperto visiterà la tua casa per una valutazione accurata e personalizzata</p>
+                <button class="cta-button open-modal" data-modal="modal-in-person">Richiedi Appuntamento</button>
+            </div>
+            <div class="valuation-card">
+                <i class="fas fa-laptop"></i>
+                <h3>Valutazione Online</h3>
+                <p>Ottieni una stima immediata compilando il nostro questionario online</p>
+                <button class="cta-button open-modal" data-modal="modal-online">Valutazione Online</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>La nostra esperienza al tuo servizio</h2>
+                <p>Con oltre 15 anni di esperienza nel settore immobiliare, il nostro team di professionisti ti guiderà attraverso ogni fase del processo di vendita, garantendoti il massimo risultato con la minima preoccupazione.</p>
+                <p>Crediamo in un approccio personalizzato, perché ogni casa ha una storia unica che merita di essere raccontata nel modo giusto.</p>
+                <div class="team">
+                    <div class="team-member">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marco Rossi">
+                        <h4>Marco Rossi</h4>
+                        <p>Fondatore & CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Laura Bianchi">
+                        <h4>Laura Bianchi</h4>
+                        <p>Responsabile Vendite</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Agenzia Prestige">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>I nostri servizi</h2>
+            <p>Offriamo un servizio completo per garantirti la migliore esperienza immobiliare</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-search-dollar"></i>
+                <h3>Valutazione Gratuita</h3>
+                <p>Una valutazione accurata del tuo immobile senza alcun impegno, per conoscere il suo reale valore di mercato.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-file-contract"></i>
+                <h3>Verifica Documentale</h3>
+                <p>Collaborazione con tecnici e notai per verificare tutta la documentazione necessaria per una vendita sicura.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-couch"></i>
+                <h3>Home Staging</h3>
+                <p>Preparazione dell'immobile con arredi e soluzioni su misura per presentarlo al meglio ai potenziali acquirenti.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-euro-sign"></i>
+                <h3>Consulenza Finanziaria</h3>
+                <p>Supporto nella ricerca della soluzione di mutuo più vantaggiosa con i nostri partner bancari.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2>Cosa dicono i nostri clienti</h2>
+            <p>La soddisfazione dei nostri clienti è la nostra migliore pubblicità</p>
+        </div>
+        <div class="testimonials-slider">
+            <div class="testimonial active">
+                <i class="fas fa-quote-left"></i>
+                <p>"Grazie a PrestigeHome ho venduto la mia casa al prezzo giusto e in tempi record. Professionalità e competenza eccezionali!"</p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Anna Verdi">
+                    <div class="author-info">
+                        <h4>Anna Verdi</h4>
+                        <p>Vendita Appartamento, Milano</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <i class="fas fa-quote-left"></i>
+                <p>"Consiglio vivamente PrestigeHome a chiunque voglia vendere con serenità. Mi hanno seguito passo passo fino al rogito."</p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Paolo Neri">
+                    <div class="author-info">
+                        <h4>Paolo Neri</h4>
+                        <p>Vendita Villa, Como</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <i class="fas fa-quote-left"></i>
+                <p>"Servizio impeccabile! La valutazione online è stata precisa e l'agente che è venuto a casa è stato gentilissimo e preparato."</p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="Sara Gialli">
+                    <div class="author-info">
+                        <h4>Sara Gialli</h4>
+                        <p>Valutazione Appartamento, Roma</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slider-dot active" data-slide="0"></div>
+                <div class="slider-dot" data-slide="1"></div>
+                <div class="slider-dot" data-slide="2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="section-title">
+            <h2>Il nostro processo di vendita</h2>
+            <p>Un percorso chiaro e trasparente per vendere la tua casa senza stress</p>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Valutazione</h3>
+                <p>Analisi accurata del tuo immobile e definizione del prezzo di mercato ottimale</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Analisi Esigenze</h3>
+                <p>Comprensione delle tue necessità e tempistiche per pianificare la strategia migliore</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Shooting Fotografico</h3>
+                <p>Servizio fotografico professionale e creazione materiali marketing</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Visite all'Immobile</h3>
+                <p>Presentazione della proprietà ai potenziali acquirenti qualificati</p>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <h3>Trattativa</h3>
+                <p>Gestione di tutte le fasi negoziali per ottenere le migliori condizioni</p>
+            </div>
+            <div class="step">
+                <div class="step-number">6</div>
+                <h3>Rogito</h3>
+                <p>Assistenza fino alla firma dell'atto notarile e consegna delle chiavi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="section-title">
+            <h2>Domande Frequenti</h2>
+            <p>Ecco le risposte ad alcune delle domande che ci vengono poste più spesso</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Quanto costa la valutazione dell'immobile?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>La valutazione è completamente gratuita e senza alcun impegno. È il nostro modo per iniziare a conoscerti e comprendere le tue esigenze.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Quanto tempo ci vuole per vendere una casa?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Il tempo di vendita dipende da molti fattori: posizione, prezzo, condizioni dell'immobile e mercato attuale. In media, con la nostra strategia, le proprietà vengono vendute nel 30% in meno di tempo rispetto alla media del mercato.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Come viene determinato il prezzo di vendita?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Analizziamo diversi fattori: caratteristiche dell'immobile, confronto con proprietà simili vendute di recente, posizione, stato del mercato e tue esigenze. Il nostro obiettivo è trovare il prezzo ottimale che attiri acquirenti senza lasciare valore sul tavolo.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>È obbligatorio fare lavori di ristrutturazione prima di vendere?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Non è obbligatorio, ma alcuni interventi mirati possono aumentare notevolmente l'appeal della proprietà e il prezzo finale. Ti consiglieremo al meglio caso per caso.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Come funziona il servizio di home staging?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Il nostro team di esperti riorganizza gli spazi e gli arredi (o li fornisce temporaneamente se necessario) per mostrare il pieno potenziale della tua casa, aiutando gli acquirenti a immaginarsi di viverci. Questo servizio può aumentare l'offerta finale fino al 10%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Pronto a scoprire il valore della tua casa?</h2>
+        <p>Richiedi una valutazione gratuita e senza impegno. Il nostro team ti contatterà entro 24 ore.</p>
+        <button class="cta-button open-modal" data-modal="modal-in-person">Inizia Ora</button>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>PrestigeHome</h3>
+                <p>La tua casa racconta la tua storia, siamo qui per ascoltarla.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Contatti</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Via Roma 123, Milano</p>
+                <p><i class="fas fa-phone"></i> +39 02 1234567</p>
+                <p><i class="fas fa-envelope"></i> info@prestigehome.it</p>
+            </div>
+            <div class="footer-column">
+                <h3>Link Utili</h3>
+                <a href="#valuation">Valutazione Immobile</a>
+                <a href="#services">Servizi</a>
+                <a href="#process">Processo di Vendita</a>
+                <a href="#about">Chi Siamo</a>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Termini e Condizioni</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PrestigeHome. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal" id="modal-in-person">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Richiedi una Valutazione in Presenza</h3>
+            <form id="in-person-form">
+                <div class="form-group">
+                    <label for="name">Nome e Cognome</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefono</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Indirizzo Immobile</label>
+                    <input type="text" id="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Data preferita per la visita</label>
+                    <input type="date" id="date" required>
+                </div>
+                <button type="submit" class="form-submit">Invia Richiesta</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-online">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Valutazione Online del tuo Immobile</h3>
+            <form id="online-form">
+                <div class="form-group">
+                    <label for="online-name">Nome e Cognome</label>
+                    <input type="text" id="online-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="online-email">Email</label>
+                    <input type="email" id="online-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="online-phone">Telefono</label>
+                    <input type="tel" id="online-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="online-address">Indirizzo Immobile</label>
+                    <input type="text" id="online-address" required>
+                </div>
+                <div class="form-group">
+                    <label for="property-type">Tipologia Immobile</label>
+                    <select id="property-type" required>
+                        <option value="">Seleziona</option>
+                        <option value="appartamento">Appartamento</option>
+                        <option value="villa">Villa</option>
+                        <option value="loft">Loft</option>
+                        <option value="ufficio">Ufficio</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="square-meters">Metri Quadri</label>
+                    <input type="number" id="square-meters" required>
+                </div>
+                <div class="form-group">
+                    <label for="rooms">Numero di Stanze</label>
+                    <input type="number" id="rooms" required>
+                </div>
+                <div class="form-group">
+                    <label for="condition">Stato dell'Immobile</label>
+                    <select id="condition" required>
+                        <option value="">Seleziona</option>
+                        <option value="eccellente">Eccellente</option>
+                        <option value="buono">Buono</option>
+                        <option value="da ristrutturare">Da Ristrutturare</option>
+                    </select>
+                </div>
+                <button type="submit" class="form-submit">Ottieni Valutazione</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="modal-success">
+        <div class="modal-content" style="text-align: center;">
+            <span class="close-modal">&times;</span>
+            <i class="fas fa-check-circle" style="font-size: 5rem; color: var(--success); margin-bottom: 1.5rem;"></i>
+            <h3>Grazie per la tua richiesta!</h3>
+            <p>Ti contatteremo al più presto per confermare i dettagli.</p>
+            <button class="cta-button close-modal" style="margin-top: 1.5rem;">Chiudi</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
